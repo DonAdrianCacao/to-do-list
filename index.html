@@ -1,17 +1,30 @@
 <!doctype html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To Do List - Adrian</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Do List - Adrian</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <h1>hello my site</h1>
+<body>
+  <div class="template">
+    <div class="todolistTable">
+      <div>hello this is my todo list</div>
+      <input id="searchbox" type="text" placeholder="Enter an item"> 
+      <div>
+        <button id="addbtn">Add!</button>
+        <button id="deletebtn">delete!</button>
+      </div>
+      <p>Below is my todo list items</p>
+      <ol id="tableList"></ol>
+    </div>
+  </div>
+  </div>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
+
 </html>
